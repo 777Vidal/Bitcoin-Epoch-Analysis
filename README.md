@@ -2,13 +2,13 @@ Bitcoin Epoch Analysis
 
 📋 Project Overview
 
-This project analyzes Bitcoin's price data across different halving epochs to study trends and predict future price peaks. It includes:
+This project analyses Bitcoin's price data across different halving epochs to study trends and predict future price peaks. It includes:
 
 Data preprocessing to resample hourly price data into daily high prices.
 
 Segmentation of data into epochs based on Bitcoin halving dates.
 
-Visualization of price trends for each epoch.
+Visualisation of price trends for each epoch.
 
 Polynomial regression to predict future price peaks.
 
@@ -18,13 +18,11 @@ Preprocessing: Converts raw hourly price data into daily highs.
 
 Epoch Segmentation: Groups data into Bitcoin halving epochs.
 
-Visualization: Plots daily high prices for each epoch.
+Visualisation: Plots daily high prices for each epoch.
 
 Prediction: Uses polynomial regression to estimate future peaks.
 
 Install Dependencies
-
-pip install -r requirements.txt
 
 📂 Dataset Requirements
 
@@ -67,7 +65,7 @@ Epoch 1
 
 Epoch 2
 
-Visualizations: Daily high prices for each epoch.
+Visualisations: Daily high prices for each epoch.
 
 Predicted Peak for Epoch 5: $149,818.55
 
@@ -91,7 +89,7 @@ This project is licensed under the MIT License. See LICENSE for details.
 
 Bitcoin price data provided by [Kaggle dataset].
 
-Visualization powered by Matplotlib.
+Visualisation powered by Matplotlib.
 
 Feel free to reach out with questions or suggestions!
 
