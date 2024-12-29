@@ -1,16 +1,16 @@
 # Bitcoin Epoch Analysis: Trends and Predictions Across Halving Cycles
 
 ## Overview
-This project analyzes Bitcoin's price data across multiple halving epochs to uncover trends and predict future price peaks. By segmenting the data based on Bitcoin halving dates, we identify patterns in price behavior and use polynomial regression for predictive modeling.
+This project analyses Bitcoin's price data across multiple halving epochs to uncover trends and predict future price peaks. By segmenting the data based on Bitcoin halving dates, we identify patterns in price behavior and use polynomial regression for predictive modeling.
 
 The analysis focuses on:
 - Resampling raw hourly price data into daily high prices.
-- Grouping data into halving epochs for trend visualization.
+- Grouping data into halving epochs for trend visualisation.
 - Using regression models to estimate future price peaks.
 
 ## Goals
 1. Understand price behavior across Bitcoin halving epochs.
-2. Visualize trends in daily high prices for each epoch.
+2. visualise trends in daily high prices for each epoch.
 3. Predict future price peaks based on historical data.
 
 ## Dataset
@@ -30,13 +30,13 @@ Open time,High
 ## Features
 - **Data Preprocessing**: Converts raw hourly price data into daily high prices.
 - **Epoch Segmentation**: Groups data into distinct Bitcoin halving epochs.
-- **Visualizations**: Plots daily high prices for each epoch.
+- **visualisations**: Plots daily high prices for each epoch.
 - **Prediction Models**: Uses polynomial regression to estimate future price peaks.
 
 ---
 
-## Analysis & Visualizations
-### Key Visualizations:
+## Analysis & visualisations
+### Key visualisations:
 1. **Price Trends by Epoch**:
    - Line plots for each halving epoch, showing the progression of daily high prices.
    
@@ -60,13 +60,13 @@ Open time,High
 ## Tools Used
 - **Python**: For data processing and predictive modeling.
 - **Pandas**: For data manipulation and analysis.
-- **Matplotlib**: For creating visualizations.
+- **Matplotlib**: For creating visualisations.
 - **Scikit-learn**: For polynomial regression and predictive analysis.
 
 ---
 
 ## Results
-- Visualization of price trends reveals consistent patterns of growth within epochs.
+- visualisation of price trends reveals consistent patterns of growth within epochs.
 - Polynomial regression provides robust estimates for future price peaks, offering insights into Bitcoin's potential value.
 
 ---
@@ -93,7 +93,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Acknowledgments
 - Bitcoin price data sourced from [Kaggle dataset].
-- Visualizations powered by **Matplotlib**.
+- visualisations powered by **Matplotlib**.
 
 
 
